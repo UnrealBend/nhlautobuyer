@@ -59,8 +59,8 @@ def do_searches(current_session)
 end
 
 login = Login.new
-login.username = 'PUT USERNAME HERE'
-login.email = 'PUT EMAIL ADDRESS HERE'
+login.username = 'UnrealBend'
+login.email = 'mase72@live.ca'
 
 puts 'Enter password:'
 login.password = gets.chomp
